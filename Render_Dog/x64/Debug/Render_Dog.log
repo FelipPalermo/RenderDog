@@ -1,0 +1,81 @@
+﻿  Render_Dog.cpp
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_Clear.h(17,36): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_Clear.h(17,30): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_Clear.h(28,11): warning C4244: 'inicializando': conversão de 'const T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_Clear.h(28,55): warning C4244: 'inicializando': conversão de 'T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_Clear.h(29,11): warning C4244: 'inicializando': conversão de 'const T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_Clear.h(29,55): warning C4244: 'inicializando': conversão de 'T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_GetString.h(17,36): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_GetString.h(17,30): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_GetString.h(28,11): warning C4244: 'inicializando': conversão de 'const T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_GetString.h(28,55): warning C4244: 'inicializando': conversão de 'T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_GetString.h(29,11): warning C4244: 'inicializando': conversão de 'const T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_GetString.h(29,55): warning C4244: 'inicializando': conversão de 'T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\TextBox.h(16,26): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\TextBox.h(16,20): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\TextBox.h(27,11): warning C4244: 'inicializando': conversão de 'const T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\TextBox.h(28,11): warning C4244: 'inicializando': conversão de 'const T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_Watch.h(21,36): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_Watch.h(21,30): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_Watch.h(33,11): warning C4244: 'inicializando': conversão de 'const T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_Watch.h(33,55): warning C4244: 'inicializando': conversão de 'T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_Watch.h(34,11): warning C4244: 'inicializando': conversão de 'const T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Button_Watch.h(34,55): warning C4244: 'inicializando': conversão de 'T' para 'int', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\Users\Felipe\source\repos\Render_Dog\Render_Dog\Render_Dog.cpp(12,92): warning C4244: 'argumento': conversão de 'float' para 'unsigned int', possível perda de dados
+  Render_Dog.vcxproj -> C:\Users\Felipe\source\repos\Render_Dog\x64\Debug\Render_Dog.exe

@@ -10,6 +10,7 @@ int main() {
 
 	// Render window
 	sf::RenderWindow window(sf::VideoMode(800, 800), "Render Dog");		window.setFramerateLimit(60.f);
+	
 	window.setKeyRepeatEnabled(false);
 
 
@@ -18,7 +19,7 @@ int main() {
 	Button_Clear B1(617, 450, sf::Vector2f(70, 35));
 	Button_GetString B2(184, 450, sf::Vector2f(70, 35));
 	Button_Watch BWatch(400,730, sf::Vector2f(720, 80));
-	TextBox TB1(400, 400);
+	TextBox TB1(400, 400, 500, 50);
 
 
 	// BG gradient
@@ -35,28 +36,25 @@ int main() {
 		
 		// Variaveis em Loop
 		sf::Event event;
-		int MouseX = sf::Mouse::getPosition(window).x;
-		int MouseY = sf::Mouse::getPosition(window).y;
+		unsigned short MouseX = sf::Mouse::getPosition(window).x;
+		unsigned short MouseY = sf::Mouse::getPosition(window).y;
 
 
 		// Loop de eventos
 		while (window.pollEvent(event)) {
 		
 			if (event.type == sf::Event::Closed)	window.close();
-			
+			if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) window.close();
+
 			BWatch.colision(MouseX, MouseY);
 			TB1.Write(MouseX, MouseY, event);
 			TB1.Clear(B1.colision(MouseX, MouseY));
 			TB1.GetString(B2.colision(MouseX, MouseY));
 
 		
-		
 		}
 
-
-		// Renderizacao
-
-		
+		// Renderizacao		
 		window.draw(BG, 4 ,sf::Quads);
 		B1.render(window);
 		B2.render(window);

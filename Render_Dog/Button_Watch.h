@@ -30,8 +30,8 @@ public:
 
 	bool colision(int MouseX, int MouseY) {
 
-		int BPx = Button_Created.getPosition().x;			int BSx = Button_Created.getSize().x / 2;
-		int BPy = Button_Created.getPosition().y;			int BSy = Button_Created.getSize().y / 2;
+		unsigned short BPx = Button_Created.getPosition().x;			unsigned short BSx = Button_Created.getSize().x / 2;
+		unsigned short BPy = Button_Created.getPosition().y;			unsigned short BSy = Button_Created.getSize().y / 2;
 
 
 		if (MouseX >= BPx - BSx && MouseY >= BPy - BSy && MouseX <= BPx + BSx && MouseY <= BPy + BSy) {

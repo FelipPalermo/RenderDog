@@ -10,9 +10,9 @@ class TextBox {
 
 public:
 
-	TextBox(int PosX, int PosY) {
+	TextBox(int PosX, int PosY, int sizex, int sizey) {
 	
-		Tbox.setSize(sf::Vector2f(500, 50));	Tbox.setOrigin(250, 25);	
+		Tbox.setSize(sf::Vector2f(sizex, sizey));	Tbox.setOrigin(Tbox.getSize().x /2 , Tbox.getSize().y / 2);
 		Tbox.setPosition(PosX, PosY);
 		Tbox.setOutlineThickness(1);
 		Tbox.setFillColor(sf::Color::Transparent);	Tbox.setOutlineColor(sf::Color::White);
@@ -24,14 +24,14 @@ public:
 		BebasNeue.loadFromFile("C:/Users/Felipe/source/repos/Render_Dog/Render_Dog/BebasNeue-Regular.otf");
 
 		// Posicoes do objeto 
-		int TPx = Tbox.getPosition().x;			
-		int TPy = Tbox.getPosition().y;			
+		unsigned short TPx = Tbox.getPosition().x;			unsigned short TSx = Tbox.getSize().x / 2 ;
+		unsigned short TPy = Tbox.getPosition().y;			unsigned short TSy = Tbox.getSize().y / 2 ;
 		
 		// Texto a ser renderizado
 		Ui_text.setFont(BebasNeue);
 
 
-		// Y do texto = Y da posicao + || - 22
+		// Y do texto = Y da posicao + || - 22x
 		Ui_text.setPosition(160, 378);	Ui_text.setCharacterSize(35);
 		Ui_text.setString(User_Input);
 
@@ -41,7 +41,7 @@ public:
 		String_UserInput = (std::string)User_Input;
 
 		// Detecta colisao da Textbox com o mouse
-		if (MouseX >= TPx - 250 && MouseY >= TPy - 25 && MouseX <= TPx + 250 && MouseY <= TPy + 25) {
+		if (MouseX >= TPx - TSx && MouseY >= TPy - TSy && MouseX <= TPx + TSx && MouseY <= TPy + TSy) {
 			
 			// Se detectar click do mouse durante a colisao com a Textbox 
 			// Textbox_clicked = true, agora podemos escrever na textbox
@@ -93,8 +93,6 @@ public:
 					// E para evitar possiveis bugs
 					CloseClipboard();
 					
-				
-				
 				
 				
 				}
